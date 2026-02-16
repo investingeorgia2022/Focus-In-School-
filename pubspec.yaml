@@ -1,5 +1,5 @@
 name: focus_school_app
-description: A focus timer and reward system for school.
+description: Focus app for students.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # თუ მომავალში დაამატებ სხვა რამეს, აქ ჩაიწერება
 
 dev_dependencies:
   flutter_test:
