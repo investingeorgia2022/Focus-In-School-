@@ -15,11 +15,11 @@ jobs:
 
       - name: Install dependencies
         - run: flutter pub get
-  working-directory: Focus-In-School
+        working-directory: Focus-In-School
 
       - name: Build APK
         run: flutter build apk --debug
-
+        working-directory: Focus-In-School
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
