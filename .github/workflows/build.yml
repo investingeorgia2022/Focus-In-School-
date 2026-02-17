@@ -14,7 +14,8 @@ jobs:
           channel: 'stable'
 
       - name: Install dependencies
-        run: flutter pub get
+        - run: flutter pub get
+  working-directory: Focus-In-School
 
       - name: Build APK
         run: flutter build apk --debug
