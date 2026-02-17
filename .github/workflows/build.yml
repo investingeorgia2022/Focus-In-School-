@@ -28,7 +28,6 @@ jobs:
 
       - name: Increase version automatically
         run: |
-          Focus-In-School
           sed -i "s/+[0-9]*/+${GITHUB_RUN_NUMBER}/" pubspec.yaml
 
       - name: Install dependencies
