@@ -46,8 +46,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v${{ github.run_number }}
-          files: |
-            Focus-In-School/build/app/outputs/flutter-apk/app-release.apk
-            Focus-In-School/build/app/outputs/bundle/release/app-release.aab
+          files: | build/app/outputs/flutter-apk/app-release.apk
+          build/app/outputs/bundle/release/app-release.aab
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
